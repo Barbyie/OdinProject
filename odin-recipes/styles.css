@@ -1,0 +1,23 @@
+
+body {
+  background-color: #ffff99; 
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.main {
+  font-size: 20px;
+  folt-weight: italic;
+}
+
+.list-color {
+  color: #000080;
+  line-height: 2;
+}
+
+.description {
+  color: 	#cc0000;
+}
