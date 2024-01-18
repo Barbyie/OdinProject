@@ -79,3 +79,63 @@ ul li:hover ul.dropdown {
   border-radius: 50%;
   margin: 2rem auto ;
 }
+
+/* Recipes */
+
+.header {
+  background-color: hsl(60, 100%, 50%);
+  display: flex;
+  width: 15rem;
+  margin: auto;
+  justify-content: center;
+}
+
+.image-description {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  background: rgba(245,248,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50rem;
+  height: 10rem;
+  line-height: 2rem;
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.ul-recipes {
+  display: grid;
+  position: left; 
+  background: rgba(245,248,0,0.4);
+  width: 20rem;
+  height: 10rem;
+  justify-content: left;
+  text-align: left;
+  list-style-type: square;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.steps {
+  display: grid;
+  position: left;
+  justify-content: left;
+  text-align: left;
+  background: rgba(245,248,0,0.4);
+  width: 50rem;
+}
+
+.space {
+  margin-bottom: 1rem;
+}
+
+
+
+
