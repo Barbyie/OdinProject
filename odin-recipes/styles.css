@@ -8,7 +8,7 @@ body {
   background: url('background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 1600px;
 }
 
 /* Navigation Bar */
@@ -114,8 +114,8 @@ ul li:hover ul.dropdown {
   display: grid;
   position: left; 
   background: rgba(245,248,0,0.4);
-  width: 20rem;
-  height: 10rem;
+  width: 25rem;
+  height: 20rem;
   justify-content: left;
   text-align: left;
   list-style-type: square;
@@ -137,5 +137,15 @@ ul li:hover ul.dropdown {
 }
 
 
-
-
+.ul-extra {
+  display: grid;
+  position: left; 
+  background: rgba(245,248,0,0.4);
+  width: 25rem;
+  height: 10rem;
+  justify-content: left;
+  text-align: left;
+  list-style-type: square;
+  font-size: 15px;
+  font-weight: 500;
+}
