@@ -111,6 +111,15 @@
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
 
+    const sumInstances = data.reduce((groupedData, element) => {
+      if (groupedData[element] === undefined) {
+        groupedData[element] = 0;
+      };
+      groupedData[element]++;
+      return groupedData;
+    }, {});
+      
+
   </script>
 </body>
 </html>
