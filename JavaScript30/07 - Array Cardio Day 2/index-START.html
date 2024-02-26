@@ -59,6 +59,14 @@
     // Find the comment with this ID
     // delete the comment with the ID of 823423
 
+    const deleteComment = comments.findIndex(comment => {
+      if (comment.id === 823423) {
+        return true;
+      };
+    });
+    comments.splice(deleteComment, 1);
+
+
   </script>
 </body>
 </html>
